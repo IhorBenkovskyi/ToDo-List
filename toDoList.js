@@ -48,6 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
     inputField.addEventListener("input", function () {
         if (inputField.value.trim() === "") {
             addButton.disabled = true;
+            addButton.style.backgroundColor = "grey";
         } else {
             addButton.disabled = false;
         }
